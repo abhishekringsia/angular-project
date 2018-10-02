@@ -12,6 +12,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgForm } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+//import { HomeComponent } from './home/home.component';
+
 
 
 

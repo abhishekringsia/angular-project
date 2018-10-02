@@ -9,12 +9,12 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" routerLink="/customers">
-                <img src="assets/images/people.png" alt="logo" />
+              <!--  <img src="assets/images/people.png" alt="logo" />-->
                 <span class="app-title">AGRIOLD</span>
             </a>
             <span class="navbar-collapse" [attr.data-collapse]="isCollapsed">
                 <ul class="nav navbar-nav nav-pills navBarPadding">
-                    <li routerLinkActive="active"><a routerLink="/customers">Home</a></li>
+                    <li routerLinkActive="active"><a routerLink="/home">Home</a></li>
                     <li routerLinkActive="active"><a routerLink="/post">Post AD</a></li>
                     <li routerLinkActive="active"><a routerLink="/about">About</a></li>
                     <li routerLinkActive="active" (click)="loginOrOut()"><a>{{ loginLogoutText }}</a></li>
