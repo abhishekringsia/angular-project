@@ -1,0 +1,48 @@
+[{
+    "id":"id1",
+    "title":"Tractor",
+   "brandName": "Sonalika",
+   "modelName": "DI 730II HDM OIB",
+   "modelDate" : "2017",
+   "price" : "27000",
+   "createdDate" : "18-Oct-2018",
+   "location":"Pune,Maharastra",
+    "description": "This is Truck 1",
+    "photo": "Streptopelia"
+},
+{
+    "id":"id2",
+    "title":"Tractor",
+   "brandName": "John Deere",
+   "modelName": "DI 730II HDM OIB",
+   "modelDate" : "2017",
+   "price" : "27000",
+   "createdDate" : "18-Oct-2018",
+   "location":"Pune,Maharastra",
+    "description": "This is tractor 2",
+    "photo": "Streptopelia"
+},
+{
+    "id":"id3",
+    "title":"Tractor",
+   "brandName": "Mahindra & Mahindra",
+   "modelName": "DI 730II HDM OIB",
+   "modelDate" : "2017",
+   "price" : "27000",
+   "createdDate" : "18-Oct-2018",
+   "location":"Pune,Maharastra",
+    "description": "This is tractor 3",
+    "photo": "Streptopelia"
+},
+{
+    "id":"id4",
+    "title":"Tractor",
+    "brandName": "HMT",
+    "modelName": "DI 730II HDM OIB",
+    "modelDate" : "2017",
+    "price" : "27000",
+    "createdDate" : "18-Oct-2018",
+    "location":"Pune,Maharastra", 
+     "description": "This is tractor 4",
+     "photo": "Streptopelia"
+}]
