@@ -12,6 +12,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgForm } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { DescriptionComponent } from './description/description.component';
 //import { HomeComponent } from './home/home.component';
 
 
@@ -33,7 +34,7 @@ import { HttpModule } from '@angular/http';
     HttpClientModule
     
   ],
-  declarations: [AppComponent],
+  declarations: [AppComponent, DescriptionComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {

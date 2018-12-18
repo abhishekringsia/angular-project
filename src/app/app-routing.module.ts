@@ -10,7 +10,7 @@ const app_routes: Routes = [
   { path: 'post', loadChildren: 'app/post/post.module#PostModule' },
   { path: 'home', loadChildren: 'app/home/home.module#HomeModule' },
   { path: 'about', loadChildren: 'app/about/about.module#AboutModule' },
-  { path: '**', pathMatch: 'full', redirectTo: '/home' } // catch any unfound routes and redirect to home page
+  //{ path: '**', pathMatch: 'full', redirectTo: '/home' } // catch any unfound routes and redirect to home page
 ];
 
 @NgModule({

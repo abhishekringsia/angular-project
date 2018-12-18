@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { HttpErrorResponse } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -9,7 +10,7 @@ import { HttpErrorResponse } from '@angular/common/http';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  constructor(private httpService: HttpClient) { }
+  constructor(private httpService: HttpClient,private router: Router) { }
   tractors: string[];
 
   ngOnInit() {
@@ -27,5 +28,6 @@ export class HomeComponent {
   onClickMe(id: string) {
     console.log("Clicked item is :");
     console.log(id);
+    this.router.navigateByUrl("/description/description.component.html");
   }
 }

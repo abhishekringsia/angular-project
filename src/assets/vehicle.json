@@ -8,7 +8,12 @@
    "createdDate" : "18-Oct-2018",
    "location":"Pune,Maharastra",
     "description": "This is Truck 1",
-    "photo": "Streptopelia"
+    "photo": "Streptopelia",
+    "sellerName":"Harshit",
+    "sellerMobileNo":"9999000000",
+    "sellerLocation" :"Pune,Maharastra",
+    "tractorImages" : ["imageURL"]
+
 },
 {
     "id":"id2",
@@ -20,7 +25,12 @@
    "createdDate" : "18-Oct-2018",
    "location":"Pune,Maharastra",
     "description": "This is tractor 2",
-    "photo": "Streptopelia"
+    "photo": "Streptopelia",
+    "sellerName":"Harshit",
+    "sellerMobileNo":"9999000000",
+    "sellerLocation" :"Pune,Maharastra",
+    "tractorImages" : []
+
 },
 {
     "id":"id3",
@@ -32,7 +42,12 @@
    "createdDate" : "18-Oct-2018",
    "location":"Pune,Maharastra",
     "description": "This is tractor 3",
-    "photo": "Streptopelia"
+    "photo": "Streptopelia",
+    "sellerName":"Harshit",
+    "sellerMobileNo":"9999000000",
+    "sellerLocation" :"Pune,Maharastra",
+    "tractorImages" : ["imageURL"]
+
 },
 {
     "id":"id4",
@@ -44,5 +59,10 @@
     "createdDate" : "18-Oct-2018",
     "location":"Pune,Maharastra", 
      "description": "This is tractor 4",
-     "photo": "Streptopelia"
+     "photo": "Streptopelia",
+     "sellerName":"Harshit",
+    "sellerMobileNo":"9999000000",
+    "sellerLocation" :"Pune,Maharastra",
+    "tractorImages" : []
+
 }]
