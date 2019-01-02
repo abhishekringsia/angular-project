@@ -11,14 +11,14 @@ import { HttpClient, HttpEventType } from '@angular/common/http';
 
 export class PostComponent {
 
-  model = new User('','', '', '');
+  model = new User('','','','', '', '');
   selectedFile: File = null;
   submitted = false;
   constructor(private http: HttpClient) { }
 
   onSubmit() {
     this.submitted = true;
-    console.log(this.model.name);
+    console.log(this.model.location);
     this.model.id = this.uniqueKey();
     const data = JSON.stringify(this.model);
     console.log("form model"+data);
